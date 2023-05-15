@@ -10,8 +10,8 @@ from sklearn.metrics import normalized_mutual_info_score as NMI
 
 file_names = ["adrenal","cerebellum","cerebrum","eye","heart","intestine", "kidney", "liver","lung", "muscle","pancreas","placenta", "spleen", "stomach", "thymus"]
 
-LSI_PATH = "/work/lect0077/ATAC/h5ad/LSI/"
-PCA_PATH = "/hpcwork/lect0077/ATAC/h5ad/PCA/"
+LSI_PATH = ""
+PCA_PATH = ""
 
 
 def louvain_cluster(name, path):
