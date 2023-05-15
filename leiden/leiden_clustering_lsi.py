@@ -135,7 +135,3 @@ elif not input_dir is None:
         filename = os.fsdecode(file)
         if filename.endswith('.h5ad'):
             gmm_routine(os.path.join(input_dir,file), param_setting, res_file)
-
-#gmm_routine('~/spp-data/h5ad/spleen.h5ad', 'PCA30', 'spleen.h5ad')
-#gmm_routine('~/spp-data/h5ad/heart.h5ad', 'PCA30', 'heart.h5ad')
-#gmm_routine('~/spp-data/h5ad/kidney.h5ad', 'PCA30', 'kidney.h5ad')
