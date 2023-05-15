@@ -30,6 +30,5 @@ def kmeans_pca(adata):
 	clustering = KMeans(n_clusters=n_clusters, random_state=0).fit(X)
 	return clustering
 
-# common.run('/hpcwork/lect0077/ATAC/h5ad/PCA/spleen.h5ad', kmeans_pca, pca_prep=True)
 common.run_all(kmeans_lsi, directory='', pca_prep=False)
 common.run_all(kmeans_pca, directory="", pca_prep=True)
