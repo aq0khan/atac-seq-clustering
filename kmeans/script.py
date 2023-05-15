@@ -31,5 +31,5 @@ def kmeans_pca(adata):
 	return clustering
 
 # common.run('/hpcwork/lect0077/ATAC/h5ad/PCA/spleen.h5ad', kmeans_pca, pca_prep=True)
-common.run_all(kmeans_lsi, directory='/work/lect0077/ATAC/h5ad/LSI', pca_prep=False)
-common.run_all(kmeans_pca, directory="/hpcwork/lect0077/ATAC/h5ad/PCA", pca_prep=True)
+common.run_all(kmeans_lsi, directory='', pca_prep=False)
+common.run_all(kmeans_pca, directory="", pca_prep=True)
