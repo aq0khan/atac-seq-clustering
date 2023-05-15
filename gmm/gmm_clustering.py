@@ -57,8 +57,6 @@ from sklearn.metrics import *
 import tracemalloc
 
 def gmm_routine(file, setting, res_file):
-    # read h5ad data
-    # e.g. 'BioInfo/ATAC/h5ad/spleen.h5ad'
     adata = ad.read(file)
     epi.pp.binarize(adata)
 
