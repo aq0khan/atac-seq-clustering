@@ -7,7 +7,7 @@ from sklearn.metrics import *
 from sklearn.metrics import normalized_mutual_info_score as NMI
 import time
 import tracemalloc
-file_names = ["adrenal","cerebellum","cerebrum","eye","heart","intestine", "kidney", "liver","lung", "muscle","pancreas","placenta", "spleen", "stomach", "thymus"]
+file_names = [""]
 
 LSI_PATH = ""
 PCA_PATH = ""
