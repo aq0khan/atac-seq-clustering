@@ -33,6 +33,6 @@ def dbscan_manhattan(adata):
 	clustering = DBSCAN(eps=0.5, min_samples=5, metric = 'manhattan', n_jobs=-1).fit(X)
 	return scores(adata, clustering)
 
-lsi_path = '/work/lect0077/ATAC/h5ad/LSI'
-file_name = 'spleen.h5ad'
+lsi_path = ''
+file_name = ''
 common.run(Path(lsi_path) / file_name, dbscan_euclidian)
