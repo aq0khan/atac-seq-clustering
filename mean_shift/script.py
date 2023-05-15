@@ -9,8 +9,8 @@ import time
 import tracemalloc
 file_names = ["adrenal","cerebellum","cerebrum","eye","heart","intestine", "kidney", "liver","lung", "muscle","pancreas","placenta", "spleen", "stomach", "thymus"]
 
-LSI_PATH = "/work/lect0077/ATAC/h5ad/LSI/"
-PCA_PATH = "/hpcwork/lect0077/ATAC/h5ad/PCA/"
+LSI_PATH = ""
+PCA_PATH = ""
 
 def mean_shift(name, path, data_type):
     adata = ad.read(path + name + ".h5ad")
